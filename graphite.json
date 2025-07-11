@@ -1,0 +1,7 @@
+[{
+       "name": "clusters.##CLUSTERNAME##.##SERVICE##.status",
+       "interval": 5,
+       "value": ##METRICVALUE##,
+       "tags": ["cluster=##CLUSTERNAME##", "service=##SERVICE##"],
+       "time": ##TIME##
+}]
